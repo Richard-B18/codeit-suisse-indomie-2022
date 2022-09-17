@@ -9,6 +9,9 @@ import codeitsuisse.routes.travelling_suisse_robot
 import codeitsuisse.routes.stig
 import codeitsuisse.routes.quordleKeyboard
 import codeitsuisse.routes.dnscache
+import codeitsuisse.routes.calendarDay
+import codeitsuisse.routes.cryptocollapz
+import codeitsuisse.routes.rubiks
 
 
 
