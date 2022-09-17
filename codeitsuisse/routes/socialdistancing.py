@@ -45,6 +45,10 @@ def ans():
 
         num = int(data[2])
 
+        if num > M * N:
+            result.append("No Solution")
+            continue
+
 
         occupiedseats = []
         for i in range(3, len(data), 2):
@@ -78,6 +82,10 @@ def ans():
         # checking whether the locations in the hash are valid relative to each other
         # code
         numofpeople = num - len(occupiedseats)
+
+        if numofpeople > len(hash):
+            result.append("No Solution")
+            continue
 
         output = rec(hash, numofpeople)
         if output == 0:
