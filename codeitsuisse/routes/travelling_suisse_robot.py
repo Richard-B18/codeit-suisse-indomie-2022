@@ -65,8 +65,7 @@ def _helper(current, target, direction):
 @app.route('/travelling-suisse-robot', methods=['POST'])
 def travelling_suisse_robot():
     data = request.get_data(as_text=True)
-
-    logger.info(data)
+    logger.error(data)
 
     h = {}
     s = 'CODEITSUISSE'
