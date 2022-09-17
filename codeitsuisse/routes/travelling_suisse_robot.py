@@ -71,9 +71,10 @@ def travelling_suisse_robot():
     special = ['S', 'E', 'I']
 
     arr = data.split('\n')
+    arr = arr[:-1]
 
     for r in range(len(arr)):
-        for c in range(len(arr[r])):
+        for c in range(len(arr[0])):
             if arr[r][c] != ' ':
                 if arr[r][c] in h:
                     h[arr[r][c]].append([r,c,False])
