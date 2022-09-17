@@ -66,6 +66,8 @@ def _helper(current, target, direction):
 def travelling_suisse_robot():
     data = request.get_data(as_text=True)
 
+    logger.info(data)
+
     h = {}
     s = 'CODEITSUISSE'
     special = ['S', 'E', 'I']
