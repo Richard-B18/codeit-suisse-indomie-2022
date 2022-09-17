@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/codeitsuisse/routes/calendarDay.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/codeitsuisse/routes/cryptocollapz.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/codeitsuisse/routes/rubiks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeitsuisse/routes/socialdistancing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codeitsuisse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/__init__.py" afterDir="false" />

@@ -13,6 +13,7 @@ import codeitsuisse.routes.calendarDay
 import codeitsuisse.routes.cryptocollapz
 import codeitsuisse.routes.rubiks
 import codeitsuisse.routes.magiccauldrons
+import codeitsuisse.routes.socialdistancing
 
 
 
