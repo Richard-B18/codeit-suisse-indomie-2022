@@ -17,18 +17,16 @@ def quordleKeyboard():
     attempts = data.get('attempts')
     numbers = data.get('numbers')
 
-    answers = set(''.join(answers))
-    correct_guesses = set()
-
+    answers_set = set(''.join(answers))
+    guessed = set()
     for i in range(len(attempts)):
         attempt = attempts[i]
+        if attempt in answers:
+            del answers[answers.index(attempt)]
+            answers_set = set(''.join(answers))
         for c in set(attempt):
-            if c in answers:
-                correct_guesses.add(c)
-            else:
-                pass
-
-            if c not in guessed:
+            # gray
+            if c not in answers_set and c not in guessed:
                 l[ord(c) - ord('A')] = str(len(attempts) - i)
                 guessed.add(c)
 
@@ -47,7 +45,7 @@ def quordleKeyboard():
     logger.info(n)
 
     for i in n:
-        part2 += chr(ord('A') + int(i, 2))
+        part2 += chr(ord('A') + int(i, 2) - 1)
 
     for i in range(len(l)):
         if not l[i]:
