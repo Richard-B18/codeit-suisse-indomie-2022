@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/codeitsuisse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codeitsuisse/routes/magiccauldrons.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/routes/magiccauldrons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codeitsuisse/routes/socialdistancing.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/routes/socialdistancing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeitsuisse/routes/travelling_suisse_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/routes/travelling_suisse_robot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
