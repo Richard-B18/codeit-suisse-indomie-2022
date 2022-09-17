@@ -12,6 +12,7 @@ import codeitsuisse.routes.dnscache
 import codeitsuisse.routes.calendarDay
 import codeitsuisse.routes.cryptocollapz
 import codeitsuisse.routes.rubiks
+import codeitsuisse.routes.magiccauldrons
 
 
 
