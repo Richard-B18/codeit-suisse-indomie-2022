@@ -51,7 +51,7 @@ def solve():
     }
     return json.dumps(toReturn)
 
-@app.route('/stimulateQuery', methods=["POST"])
+@app.route('/simulateQuery', methods=["POST"])
 def stimulate():
     db = TinyDB('db.json')
     Mapping = Query()
