@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f93a891-cdbc-402d-a835-072fd816d735" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/codeitsuisse/routes/magiccauldrons.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/codeitsuisse/routes/tickerStreamPart1.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/codeitsuisse/routes/tickerStreamPart2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeitsuisse/routes/travelling_suisse_robot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codeitsuisse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/__init__.py" afterDir="false" />
     </list>
