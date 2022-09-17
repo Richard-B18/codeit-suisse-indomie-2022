@@ -1,5 +1,5 @@
-from flask import Flask, request, jsonify
-app = Flask(__name__)
+from flask import request, jsonify
+from codeitsuisse import app
 
 def solvePart1(flowRate, time, row, col, mode=100):
     k = (flowRate * time) / mode
@@ -27,7 +27,7 @@ def solvePart1(flowRate, time, row, col, mode=100):
 
 # def solvePart2(flowRate, amount, row, col):
 
-@app.route('/magiccauldrons', methods=["GET", "POST"])
+@app.route('/magiccauldrons', methods=["POST"])
 def solveThisShit():
     data = request.get_json()
     returnArr = []
