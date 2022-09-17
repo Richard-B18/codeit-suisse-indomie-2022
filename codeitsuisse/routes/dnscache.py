@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from tinydb import TinyDB, Query
 import json
-app = Flask(__name__)
+from codeitsuisse import app
 
 class LRUCache:
     def __init__(self, capacity: int):
