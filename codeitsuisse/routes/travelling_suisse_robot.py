@@ -73,7 +73,7 @@ def travelling_suisse_robot():
     arr = data.split('\n')
 
     for e in arr:
-        logger.info(e)
+        logger.info(len(e))
 
     if not arr[-1]:
         del arr[-1]
