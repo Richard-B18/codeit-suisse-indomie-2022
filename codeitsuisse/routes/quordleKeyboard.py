@@ -17,11 +17,17 @@ def quordleKeyboard():
     attempts = data.get('attempts')
     numbers = data.get('numbers')
 
-    guessed = set()
+    answers = set(''.join(answers))
+    correct_guesses = set()
 
     for i in range(len(attempts)):
         attempt = attempts[i]
         for c in set(attempt):
+            if c in answers:
+                correct_guesses.add(c)
+            else:
+                pass
+
             if c not in guessed:
                 l[ord(c) - ord('A')] = str(len(attempts) - i)
                 guessed.add(c)
