@@ -6,6 +6,7 @@ import codeitsuisse.routes.square
 import codeitsuisse.routes.tickerStreamPart1
 import codeitsuisse.routes.tickerStreamPart2
 import codeitsuisse.routes.travelling_suisse_robot
+import codeitsuisse.routes.stig
 
 
 
