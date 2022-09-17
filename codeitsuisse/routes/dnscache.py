@@ -3,6 +3,10 @@ from tinydb import TinyDB, Query
 import json
 from codeitsuisse import app
 
+import logging
+logger = logging.getLogger(__name__)
+
+
 class LRUCache:
     def __init__(self, capacity: int):
         self.hashmap = {}
@@ -39,6 +43,7 @@ class LRUCache:
 def solve():
     db = TinyDB('db.json')
     data = request.get_json()
+    logger.info(data)
     for domain in data["lookupTable"]:
         db.insert({ 'domain' : domain, 'ip' : data["lookupTable"][domain] })
     toReturn = {
