@@ -72,12 +72,8 @@ def travelling_suisse_robot():
 
     arr = data.split('\n')
 
-    logging.info(arr)
-    logging.info(len(arr))
-    logging.info(len(arr[0]))
-
     for r in range(len(arr)):
-        for c in range(len(arr[0])):
+        for c in range(len(arr[r])):
             if arr[r][c] != ' ':
                 if arr[r][c] in h:
                     h[arr[r][c]].append([r,c,False])
