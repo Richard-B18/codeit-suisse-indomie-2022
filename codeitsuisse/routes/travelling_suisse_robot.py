@@ -78,8 +78,6 @@ def travelling_suisse_robot():
     if not arr[-1]:
         del arr[-1]
 
-    logger.info(len(arr))
-
     for r in range(len(arr)):
         for c in range(len(arr[0])):
             if arr[r][c] != ' ':

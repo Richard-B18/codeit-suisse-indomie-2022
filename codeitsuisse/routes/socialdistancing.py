@@ -1,4 +1,4 @@
-from copy import deepcopy
+from copy import copy
 
 import logging
 import json
@@ -19,7 +19,7 @@ def rec(hash, n):
         return 1
 
     for k, v in hash.items():
-        temp = deepcopy(hash)
+        temp = copy(hash)
 
         del temp[k]
 
